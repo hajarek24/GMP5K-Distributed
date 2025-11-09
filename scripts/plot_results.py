@@ -16,4 +16,4 @@ def parse_results(filename):
                 times.append(float(match.group(2)))  
                 throughputs.append(float(match.group(3)))  
       
-    return sizes, times, through
+    return sizes, times, throughputs
